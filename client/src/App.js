@@ -31,6 +31,7 @@ class App extends React.Component {
   render() {
   return (
     <div>
+      <NavBar/>
       <h1> look at them champs! </h1>  
       <Card cardData={this.state.cardStuff}/>
     </div>
